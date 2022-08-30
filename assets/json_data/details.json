@@ -1,0 +1,30 @@
+[[{
+  "name":"GHJK Engineering college",
+  "image1": "assets/images/university.jpg",
+  "image2": "assets/images/university2.jpg",
+  "desc_small": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu ut imperdiet sed nec ullamcorper.",
+  "desc_medium": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis consectetur nulla pharetra praesent hendrerit vulputate viverra. Pellentesque aliquam tempus faucibus est.",
+  "desc_large": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque accumsan, scelerisque eget lectus ullamcorper a placerat. Porta cras at pretium varius purus cursus. Morbi justo commodo habitant morbi quis pharetra posuere mauris. Morbi sit risus, diam amet volutpat quis. Nisl pellentesque nec facilisis ultrices.",
+  "trivia": "More than 1000+ students have been placed",
+  "rating": "4.3",
+  "hostel_images": [
+    "assets/images/hostel1.png",
+    "assets/images/hostel2.png",
+    "assets/images/hostel1.png",
+    "assets/images/hostel2.png",
+    "assets/images/hostel1.png",
+    "assets/images/hostel2.png",
+    "assets/images/hostel1.png"
+  ],
+  "location": "Lorem ipsum dolor sit amet, consectetur",
+  "facilities": {"distance": "College in 400mtrs",
+  "Bathrooms": "2"},
+  "reviews": [{"name": "Arun sai","review":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec sed lorem nunc varius rutrum eget dolor, quis. Nulla sit magna suscipit tellus malesuada in facilisis a.",
+  "full_stars": 4,"half_stars": 1,"image":"assets/images/user1.png"},{"name": "User 2","review":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec sed lorem nunc varius rutrum eget dolor, quis. Nulla sit magna suscipit tellus malesuada in facilisis a.",
+    "full_stars": 3,"half_stars": 1,"image":"assets/images/user2.png"},
+    {"name": "User 3","review":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec sed lorem nunc varius rutrum eget dolor, quis. Nulla sit magna suscipit tellus malesuada in facilisis a.",
+      "full_stars": 4,"half_stars": 0,"image":"assets/images/user3.png"},
+    {"name": "User 4","review":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec sed lorem nunc varius rutrum eget dolor, quis. Nulla sit magna suscipit tellus malesuada in facilisis a.",
+      "full_stars": 3,"half_stars": 1,"image":"assets/images/user4.png"}]
+
+}]]
