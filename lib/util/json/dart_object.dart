@@ -24,7 +24,7 @@ class SectionsObject {
   }
 
   Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = new Map<String, dynamic>();
+    final Map<String, dynamic> data = Map<String, dynamic>();
     data['title'] = this.title;
     data['description'] = this.description;
     data['number'] = this.number;
@@ -74,18 +74,18 @@ class DetailsObject {
     hostelImages = json['hostel_images'].cast<String>();
     location = json['location'];
     facilities = json['facilities'] != null
-        ? new Facilities.fromJson(json['facilities'])
+        ? Facilities.fromJson(json['facilities'])
         : null;
     if (json['reviews'] != null) {
       reviews = <Reviews>[];
       json['reviews'].forEach((v) {
-        reviews!.add(new Reviews.fromJson(v));
+        reviews!.add(Reviews.fromJson(v));
       });
     }
   }
 
   Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = new Map<String, dynamic>();
+    final Map<String, dynamic> data = Map<String, dynamic>();
     data['name'] = this.name;
     data['image1'] = this.image1;
     data['image2'] = this.image2;
@@ -118,7 +118,7 @@ class Facilities {
   }
 
   Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = new Map<String, dynamic>();
+    final Map<String, dynamic> data =  Map<String, dynamic>();
     data['distance'] = this.distance;
     data['Bathrooms'] = this.bathrooms;
     return data;
